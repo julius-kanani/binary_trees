@@ -26,4 +26,7 @@ binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
 /* function prototype for the binary_tree_print function. */
 void binary_tree_print(const binary_tree_t *);
 
+/* function prototype that inserts a node as the left-child of another node */
+binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);
+
 #endif /* _BINARY_TREES_H_ */
