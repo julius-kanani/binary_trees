@@ -41,4 +41,7 @@ int binary_tree_is_leaf(const binary_tree_t *node);
 /* function that checks if a given node is a root */
 int binary_tree_is_root(const binary_tree_t *node);
 
+/* function that goes through a binary tree using pre-order traversal */
+void binary_tree_preorder(const binary_tree_t *tree, void(*func)(int));
+
 #endif /* _BINARY_TREES_H_ */
