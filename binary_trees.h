@@ -32,4 +32,7 @@ binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);
 /* function prototype that inserts a node as the right child of another node */
 binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value);
 
+/* function that deletes an entire binary tree */
+void binary_tree_delete(binary_tree_t *tree);
+
 #endif /* _BINARY_TREES_H_ */
